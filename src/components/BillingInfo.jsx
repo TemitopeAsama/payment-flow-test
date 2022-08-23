@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from './ScrollToTop';
 import { BillingInfoStyles } from '../styles/BillingInfo.styled';
 import { usePaymentInputs } from "react-payment-inputs";
 
@@ -12,6 +13,7 @@ const BillingInfo = ({ setFormData, formData }) => {
 
 	return (
 		<BillingInfoStyles>
+			<ScrollToTop />
 			<label htmlFor='cardName'>
 				Name on Card <span>*</span>
 			</label>

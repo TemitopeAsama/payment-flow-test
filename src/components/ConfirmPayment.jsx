@@ -1,9 +1,11 @@
 import React from 'react'
+import ScrollToTop from '../components/ScrollToTop'
 import { ConfirmPaymentStyles } from '../styles/ConfirmPayment.styled';
 
 const ConfirmPayment = () => {
   return (
 		<ConfirmPaymentStyles>
+			<ScrollToTop />
 			<div className='header'>
 				<div>Item Name</div>
 				<div>₦ Price</div>

@@ -1,9 +1,11 @@
 import React from 'react'
+import ScrollToTop from './ScrollToTop';
 import { PersonalInfoStyles } from '../styles/PersonalInfo.styled';
 
 const PersonalInfo = ({setFormData, formData}) => {
   return (
 		<PersonalInfoStyles>
+			<ScrollToTop />
 			<label htmlFor='name'>Name</label>
 			<input
 				type='text'
