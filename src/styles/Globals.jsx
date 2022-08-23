@@ -17,6 +17,9 @@ export const GlobalStyles = createGlobalStyle`
 
     /* ICONS */
     --filter-arrow: url("/arrow-icon-dark.png");
+
+    /* FONTS */
+    --font-primary: "Product Sans", sans-serif;
 }
 
 html,
@@ -54,7 +57,7 @@ body {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-    font-family: "Product Sans", sans-serif;
+    font-family: var(--font-primary);
 }
 
 
